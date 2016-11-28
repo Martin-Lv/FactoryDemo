@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "Message.h"
 #import "LinkMessage.h"
-#import "MessageFactory.h"
+#import "MLMessageFactory.h"
 
 @interface ViewController ()
 
@@ -24,9 +24,9 @@
     NSString *linkMessageJson = @"{\"message_type\":\"link\",\"link\":\"http://www.baidu.com\"}";
     NSDictionary *textMessageDict = [NSJSONSerialization JSONObjectWithData:[textMessageJson dataUsingEncoding:NSUTF8StringEncoding] options:0 error:nil];
     NSDictionary *linkMessageDict = [NSJSONSerialization JSONObjectWithData:[linkMessageJson dataUsingEncoding:NSUTF8StringEncoding] options:0 error:nil];
-    TextMessage *textMessage = [MessageFactory messageByJsonDict:textMessageDict];
+    TextMessage *textMessage = [MLMessageFactory messageByJsonDict:textMessageDict];
     NSLog(@"text message content:%@",textMessage.content);
-    LinkMessage *linkMessage = [MessageFactory messageByJsonDict:linkMessageDict];
+    LinkMessage *linkMessage = [MLMessageFactory messageByJsonDict:linkMessageDict];
     NSLog(@"link message url:%@",linkMessage.linkUrl);
     
 }

@@ -6,8 +6,8 @@
 //  Copyright © 2016年 menglin. All rights reserved.
 //
 
-#import "MessageFactory.h"
+#import "MLMessageFactory.h"
 
-@interface MessageFactory (LinkMessage)
+@interface MLMessageFactory (LinkMessage)
 
 @end

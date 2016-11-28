@@ -6,13 +6,13 @@
 //  Copyright © 2016年 menglin. All rights reserved.
 //
 
-#import "MessageFactory.h"
+#import "MLMessageFactory.h"
 #import "Message.h"
 #import "JsonKeyDefs.h"
 
 static NSMutableDictionary<NSString *, NSString *>* messageTypeDict;
 
-@implementation MessageFactory
+@implementation MLMessageFactory
 
 + (void)load
 {

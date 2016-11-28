@@ -6,10 +6,10 @@
 //  Copyright © 2016年 menglin. All rights reserved.
 //
 
-#import "MessageFactory+LinkMessage.h"
+#import "MLMessageFactory+LinkMessage.h"
 #import "LinkMessage.h"
 
-@implementation MessageFactory (LinkMessage)
+@implementation MLMessageFactory (LinkMessage)
 
 + (void)load
 {

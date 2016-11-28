@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Message.h"
 
-@interface MessageFactory : NSObject
+@interface MLMessageFactory : NSObject
 
 + (void)registerMessageClass:(Class)messageClass forType:(NSString *)messageType;
 

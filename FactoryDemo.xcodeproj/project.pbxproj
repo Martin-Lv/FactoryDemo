@@ -14,9 +14,9 @@
 		C84E66F31DEAECED0021AB39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C84E66F21DEAECED0021AB39 /* Assets.xcassets */; };
 		C84E66F61DEAECED0021AB39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C84E66F41DEAECED0021AB39 /* LaunchScreen.storyboard */; };
 		C84E66FF1DEAED180021AB39 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = C84E66FE1DEAED180021AB39 /* Message.m */; };
-		C84E67021DEAED950021AB39 /* MessageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C84E67011DEAED950021AB39 /* MessageFactory.m */; };
+		C84E67021DEAED950021AB39 /* MLMessageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C84E67011DEAED950021AB39 /* MLMessageFactory.m */; };
 		C84E67051DEAF3980021AB39 /* LinkMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C84E67041DEAF3980021AB39 /* LinkMessage.m */; };
-		C84E67081DEAF3C60021AB39 /* MessageFactory+LinkMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C84E67071DEAF3C60021AB39 /* MessageFactory+LinkMessage.m */; };
+		C84E67081DEAF3C60021AB39 /* MLMessageFactory+LinkMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C84E67071DEAF3C60021AB39 /* MLMessageFactory+LinkMessage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +32,12 @@
 		C84E66F71DEAECED0021AB39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C84E66FD1DEAED180021AB39 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
 		C84E66FE1DEAED180021AB39 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
-		C84E67001DEAED950021AB39 /* MessageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageFactory.h; sourceTree = "<group>"; };
-		C84E67011DEAED950021AB39 /* MessageFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageFactory.m; sourceTree = "<group>"; };
+		C84E67001DEAED950021AB39 /* MLMessageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLMessageFactory.h; sourceTree = "<group>"; };
+		C84E67011DEAED950021AB39 /* MLMessageFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLMessageFactory.m; sourceTree = "<group>"; };
 		C84E67031DEAF3980021AB39 /* LinkMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkMessage.h; sourceTree = "<group>"; };
 		C84E67041DEAF3980021AB39 /* LinkMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkMessage.m; sourceTree = "<group>"; };
-		C84E67061DEAF3C60021AB39 /* MessageFactory+LinkMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MessageFactory+LinkMessage.h"; sourceTree = "<group>"; };
-		C84E67071DEAF3C60021AB39 /* MessageFactory+LinkMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MessageFactory+LinkMessage.m"; sourceTree = "<group>"; };
+		C84E67061DEAF3C60021AB39 /* MLMessageFactory+LinkMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MLMessageFactory+LinkMessage.h"; sourceTree = "<group>"; };
+		C84E67071DEAF3C60021AB39 /* MLMessageFactory+LinkMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MLMessageFactory+LinkMessage.m"; sourceTree = "<group>"; };
 		C84E67091DEB1F460021AB39 /* JsonKeyDefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonKeyDefs.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,10 +80,10 @@
 				C84E67031DEAF3980021AB39 /* LinkMessage.h */,
 				C84E67041DEAF3980021AB39 /* LinkMessage.m */,
 				C84E67091DEB1F460021AB39 /* JsonKeyDefs.h */,
-				C84E67001DEAED950021AB39 /* MessageFactory.h */,
-				C84E67011DEAED950021AB39 /* MessageFactory.m */,
-				C84E67061DEAF3C60021AB39 /* MessageFactory+LinkMessage.h */,
-				C84E67071DEAF3C60021AB39 /* MessageFactory+LinkMessage.m */,
+				C84E67001DEAED950021AB39 /* MLMessageFactory.h */,
+				C84E67011DEAED950021AB39 /* MLMessageFactory.m */,
+				C84E67061DEAF3C60021AB39 /* MLMessageFactory+LinkMessage.h */,
+				C84E67071DEAF3C60021AB39 /* MLMessageFactory+LinkMessage.m */,
 				C84E66EF1DEAECED0021AB39 /* Main.storyboard */,
 				C84E66F21DEAECED0021AB39 /* Assets.xcassets */,
 				C84E66F41DEAECED0021AB39 /* LaunchScreen.storyboard */,
@@ -173,9 +173,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C84E67081DEAF3C60021AB39 /* MessageFactory+LinkMessage.m in Sources */,
+				C84E67081DEAF3C60021AB39 /* MLMessageFactory+LinkMessage.m in Sources */,
 				C84E66FF1DEAED180021AB39 /* Message.m in Sources */,
-				C84E67021DEAED950021AB39 /* MessageFactory.m in Sources */,
+				C84E67021DEAED950021AB39 /* MLMessageFactory.m in Sources */,
 				C84E66EE1DEAECED0021AB39 /* ViewController.m in Sources */,
 				C84E66EB1DEAECED0021AB39 /* AppDelegate.m in Sources */,
 				C84E66E81DEAECED0021AB39 /* main.m in Sources */,
@@ -336,6 +336,7 @@
 				C84E66FC1DEAECED0021AB39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
